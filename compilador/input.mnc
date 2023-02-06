@@ -1,0 +1,72 @@
+programa
+
+ 	$comentario$
+ 	$$comentario
+	
+	numero a, b, c;
+	texto t1;
+	
+	t1 = ~ ~;
+	a = 2;
+	b = 4;
+	
+	$$a = 2.2;
+	
+	
+	c = 3;
+	
+	a = 1 + 2;
+	
+	a = b + 1;
+	
+	a = b + c;
+	
+	escreva(~Informe 2 valores para somar:~);
+	leia(a);
+	leia(b);
+	valor = a + b;
+	escreva(~A soma do valor a e do valor b, e  igual a: ~valor);
+	
+	valor = valor * 2;
+	escreva(~A multiplicacao por dois e igual a: ~valor);
+	
+
+	escreva(~Ola mundo, estou vivo!!!~);
+	escreva(t1);
+	
+	
+	
+	se ( a == b){
+		escreva (~ESTA EXPRESAO RELACIONAL E VERDADEIRA      ~);
+		escreva(t1);
+		
+	}
+	senao{
+		escreva(~ ESTA EXPRESAO RELACIONAL E FALSA     ~);
+		escreva(t1);
+		
+	}
+	
+	
+	
+	para (a = 0; a <= 10; a++){	
+	
+	}
+	
+	
+	
+	enquanto (a <= b){
+	
+	}
+	
+	
+	
+	faca {
+	
+	}
+	enquanto(a <= b);
+	
+
+	escreva (~Ola mundo, estou vivo~ t1);
+
+fimprog
