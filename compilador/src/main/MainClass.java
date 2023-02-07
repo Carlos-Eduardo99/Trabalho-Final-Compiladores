@@ -7,10 +7,10 @@ import exceptions.SemanticException;
 import parser.MancoLexer;
 import parser.MancoParser;
 
-/* esta é a classe que é responsável por criar a interação com o usuário
+/* esta eh a classe que  eh responsï¿½vel por criar a interacao com o usuario
  * instanciando nosso parser e apontando para o arquivo fonte
  * 
- * Arquivo fonte: extensao .isi
+ * Arquivo fonte: extensao .mnc
  * 
  */
 public class MainClass {
@@ -19,7 +19,7 @@ public class MainClass {
 			MancoLexer lexer;
 			MancoParser parser;
 			
-			// leio o arquivo "input.isi" e isso é entrada para o Analisador Lexico
+			// leio o arquivo "input.mnc" e isso ï¿½ entrada para o Analisador Lexico
 			lexer = new MancoLexer(CharStreams.fromFileName("input.mnc"));
 			
 			// crio um "fluxo de tokens" para passar para o PARSER
